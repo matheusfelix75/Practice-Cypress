@@ -16,6 +16,8 @@ describe('kumpulan1', function(){
         cy.visit('https://ultimateqa.com/simple-html-elements-for-automation/')
         cy.get('#et_pb_contact_name_0').type('Felix').should('have.value','Felix')
         cy.get('#et_pb_contact_email_0').type('Felix@mail.com').should('have.value','Felix@mail.com')
+        cy.get('.et_pb_contact_submit')
+
     }),
         //KONDISI 2 TEST CASE
         it ('tc-2', function(){
