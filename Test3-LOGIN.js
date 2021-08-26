@@ -2,7 +2,7 @@ describe('kumpulan1', function(){
     it ('LOGIN', function(){
         cy.URL()
 
-        //LOGIN
+        //LOGIN 
         cy.get('#login2').click()
         cy.wait(2000)
         cy.get('#loginusername').type('FELIXTHECAT20')
