@@ -2,7 +2,7 @@ describe('kumpulan1', function(){
     it ('ADD-CHART', function(){
         cy.LOGIN()
 
-        //ADD CHART
+        //ADD CART
         cy.get(':nth-child(1) > .card > .card-block > .card-title > .hrefch').click()
         cy.wait(2000)
         cy.get('#nameofuser').should('have.text','Welcome FELIXTHECAT10')   //ASSERT
