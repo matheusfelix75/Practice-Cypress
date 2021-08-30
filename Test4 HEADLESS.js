@@ -9,7 +9,7 @@ describe('KUMPULAN-1', function() {
     cy.get('#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary').click()
     cy.get('#nameofuser').should('have.text','Welcome FELIXTHECAT20')
     
-//ADD CART
+//ADD CART 
     cy.get(':nth-child(7) > .card > .card-block > .card-title > .hrefch').should('have.text','HTC One M9')
     .click()
     cy.get('.name').should('have.text','HTC One M9')
@@ -29,7 +29,7 @@ describe('KUMPULAN-1', function() {
     cy.get('.name').should('have.text','Apple monitor 24')
     cy.get('.col-sm-12 > .btn').click()
 
-//BAYAR
+//BAYAR CART
     cy.get('#cartur').click()
     cy.get('#nameofuser').should('have.text','Welcome FELIXTHECAT20')
     cy.get('#totalp').should('have.text','1800')
