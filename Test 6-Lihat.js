@@ -1,5 +1,5 @@
 describe('TEST 6', function() {
-    it('LOGIN', function() {
+    it('LIHAT', function() {
     cy.visit('https://admin.pkh.dojobox.id/')
     cy.get('#input-email').type('e@dojobox.id')
     cy.get('#input-password').type('admin')
